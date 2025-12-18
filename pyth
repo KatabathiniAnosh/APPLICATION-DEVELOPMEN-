@@ -1,0 +1,26 @@
+int(input("enter number:- "))
+set1={56,2,"a",2,78.9}
+print(set1)
+list1 = [56,2,"a",78.9]
+print(list1)
+dict1 = {"key1":1,"key2":2}
+print(dict1)
+print(dict1.keys())
+print(list1[0])
+print(list1[1])
+print(list1[2])
+print(list1[3])
+for i in list1:
+    print(i)
+def add():
+    return 23+45
+result = add()
+print(result)
+
+from datetime import datetime
+
+year = int(input("enter year : "))
+current_year = datetime.now().year
+age = current_year - year
+print("your age is:", age)
+
